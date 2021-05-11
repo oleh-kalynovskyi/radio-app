@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/oleh-kalynovskyi/radio-app.git",
   "name": "radio-app",
   "version": "0.1.0",
   "private": true,
@@ -6,10 +7,15 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "radio-browser-api": "^2.2.4",
     "react": "^17.0.2",
+    "react-audio-player": "^0.16.1",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

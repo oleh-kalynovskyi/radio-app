@@ -1,38 +1,168 @@
-.App {
+:root {
+  --classic-body-color: rgb(192, 187, 84);
+  --classic-button-color: blueviolet;
+}
+
+* {
+  list-style: none;
+}
+
+#root {
+  max-width: 1124px;
+  padding: 0px 15px;
+  margin: 0 auto;
+
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--classic-body-color);
+}
+
+.maine-title {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.skin-search-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.search {
   text-align: center;
 }
+.search input {
+  font-size: 18px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.skin {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.skin label {
+  cursor: pointer;
+}
+.filter p {
+  font-size: 24px;
+}
+.filter-items {
+  display: flex;
+  justify-content: space-between;
+}
+.filter-items button {
+  font-size: 18px;
+  padding: 10px;
+  background-color: var(--classic-button-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  border-radius: 5px;
+  transition: all .3s ease-out;
+}
+.button-active,
+.filter-items button:hover {
+  background-color: rgb(226, 43, 134) !important;
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(34, 60, 80, 0.5);
+  -moz-box-shadow: 0px 0px 0px 3px rgba(34, 60, 80, 0.5);
+  box-shadow: 0px 0px 0px 3px rgba(34, 60, 80, 0.5);
+}
+.filter-items button:active {
+  background-color: rgb(226, 43, 134);
+}
+.likeRadio-text {
+  font-size: 24px;
+}
+.likeRadio {
+  border: 1px solid red;
+  padding: 10px;
+}
+.likeRadio-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+.FcDislike {
+  width: 30px;
+  height: 30px;
+
+  margin-right: 10px;
+  cursor: pointer;
+}
+.FcLike {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+audio {
+  margin-top: 10px;
+}
+
+.radio-list {
+  padding: 0px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.radio-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  position: relative;
+
+  border: 1px solid orange;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+
+  background-color: peachpuff;
+}
+.station-name {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 655px) {
+  .filter-items {
+    display: flex;
+    justify-content: unset;
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+  .filter-items button {
+    margin: 5px ;
+  }
+
+  .likeRadio-item span {
+    margin: 5px 0;
+    align-items: flex-start;
+  }
+  .skin-search-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 425px) {
+  .likeRadio-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  audio {
+    width: 100%;
   }
 }
