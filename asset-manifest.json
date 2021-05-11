@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/oleh-kalynovskyi/radio-app/static/css/main.bb835160.chunk.css",
-    "main.js": "/oleh-kalynovskyi/radio-app/static/js/main.c77ec3e3.chunk.js",
-    "main.js.map": "/oleh-kalynovskyi/radio-app/static/js/main.c77ec3e3.chunk.js.map",
-    "runtime-main.js": "/oleh-kalynovskyi/radio-app/static/js/runtime-main.ba588f84.js",
-    "runtime-main.js.map": "/oleh-kalynovskyi/radio-app/static/js/runtime-main.ba588f84.js.map",
-    "static/js/2.7257f8a2.chunk.js": "/oleh-kalynovskyi/radio-app/static/js/2.7257f8a2.chunk.js",
-    "static/js/2.7257f8a2.chunk.js.map": "/oleh-kalynovskyi/radio-app/static/js/2.7257f8a2.chunk.js.map",
-    "index.html": "/oleh-kalynovskyi/radio-app/index.html",
-    "static/css/main.bb835160.chunk.css.map": "/oleh-kalynovskyi/radio-app/static/css/main.bb835160.chunk.css.map",
-    "static/js/2.7257f8a2.chunk.js.LICENSE.txt": "/oleh-kalynovskyi/radio-app/static/js/2.7257f8a2.chunk.js.LICENSE.txt"
+    "main.css": "/radio-app/static/css/main.bb835160.chunk.css",
+    "main.js": "/radio-app/static/js/main.c77ec3e3.chunk.js",
+    "main.js.map": "/radio-app/static/js/main.c77ec3e3.chunk.js.map",
+    "runtime-main.js": "/radio-app/static/js/runtime-main.ba588f84.js",
+    "runtime-main.js.map": "/radio-app/static/js/runtime-main.ba588f84.js.map",
+    "static/js/2.7257f8a2.chunk.js": "/radio-app/static/js/2.7257f8a2.chunk.js",
+    "static/js/2.7257f8a2.chunk.js.map": "/radio-app/static/js/2.7257f8a2.chunk.js.map",
+    "index.html": "/radio-app/index.html",
+    "static/css/main.bb835160.chunk.css.map": "/radio-app/static/css/main.bb835160.chunk.css.map",
+    "static/js/2.7257f8a2.chunk.js.LICENSE.txt": "/radio-app/static/js/2.7257f8a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ba588f84.js",
